@@ -39,7 +39,7 @@ h1, h2, h3, h5, h6, .navbar-brand, .nav-link, .dropdown-item, .btn-group, .carou
 }
 
 #Footer img {
-  height: auto;
+  height: 30vh;
   width: auto;
 }
 
