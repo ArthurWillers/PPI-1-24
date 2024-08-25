@@ -25,10 +25,6 @@ h1, h2, h3, h5, h6, .navbar-brand, .nav-link, .dropdown-item, .btn-group, .carou
   background-color: #58cc02;
 } 
 
-#youtube-video {
-  border-radius: 1rem;
-}
-
 #Headquarters, #Video, #Tutorial, #Introduction{
   padding-top: 60px;
   margin-top: -60px;
@@ -41,6 +37,7 @@ h1, h2, h3, h5, h6, .navbar-brand, .nav-link, .dropdown-item, .btn-group, .carou
 #Footer img {
   height: 25vh;
   width: auto;
+  max-width: 100vw;
 }
 
 p {
