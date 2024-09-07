@@ -34,10 +34,10 @@ h1, h2, h3, h5, h6, .navbar-brand, .nav-link, .dropdown-item, .btn-group, .carou
   border-radius: 1rem;
 }
 
-#Footer {
+#Footer{
   width: 100vw;
 }
-  
+
 #Footer img {
   height: 25vh;
   width: auto;
@@ -48,15 +48,30 @@ p {
   text-align: justify;
 }
 
+#youtube-video, #carousel {
+  width: 100%;
+}
+
+#iframe-video {
+  border-radius: 1rem;
+}
+
+@media (min-width: 1200px) {
+  #youtube-video, #carousel {
+    width: 75%;
+  }
+  
+}
+
 @font-face {
   font-family: 'FeatherBold';
-  src: url('feather_bold.ttf') format('truetype');
+  src: url('/feather_bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'DINNext';
-  src: url('DIN_Next_Rounded.ttf') format('truetype');
+  src: url('/DIN_Next_Rounded.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
